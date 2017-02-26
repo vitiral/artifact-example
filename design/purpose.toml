@@ -1,0 +1,29 @@
+[REQ-purpose]
+text = '''
+We need to be able to say hello to both the world and aliens
+'''
+
+[REQ-world]
+partof = "REQ-purpose"
+text = '''
+there **shall** be way to say hello to the world. All of it.
+'''
+
+[REQ-aliens]
+partof = "REQ-purpose"
+text = '''
+there **shall also** be a way to say hello to aliens, but
+that will be harder
+'''
+
+[SPC-world]
+text = '''
+The hello-world function shall say hello by printing it on
+the cmdline
+'''
+
+[TST-world]
+text = '''
+To make this testable, there will be an intermediary
+function that can test it before printing.
+'''
