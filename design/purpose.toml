@@ -1,18 +1,22 @@
+[REQ-aliens]
+partof = 'REQ-purpose'
+text = '''
+there shall be a way to say hello to aliens, but that will be harder
+'''
+
 [REQ-purpose]
 text = '''
-We need to be able to say hello to both the world and aliens
+This is a project about saying hello to lots of things.
+It is split into two sub-requirements:
+
+- [[REQ-world]]: say hello to the world
+- [[REQ-aliens]]: say hello to aliens
 '''
 
 [REQ-world]
-partof = "REQ-purpose"
+partof = 'REQ-purpose'
 text = '''
-there shall be way to say hello to the world. All of it.
-'''
-
-[REQ-aliens]
-partof = "REQ-purpose"
-text = '''
-there shall be a way to say hello to aliens, but that will be harder
+There shall be way to say hello to the world. All of it.
 '''
 
 [SPC-world]
